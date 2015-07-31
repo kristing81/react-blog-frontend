@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body,
+html,
+div.blog,
+div#react-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.blog {
+    background-color: brown;
+    width: 100%;
+    background: #004C66;
+    background: -moz-radial-gradient(center, ellipse cover, #337085 57%, #004C66 99%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(57%, #337085), color-stop(99%, #004C66));
+    background: -webkit-radial-gradient(center, ellipse cover, #337085 57%, #004C66 99%);
+    background: -o-radial-gradient(center, ellipse cover, #337085 57%, #004C66 99%);
+    background: -ms-radial-gradient(center, ellipse cover, #337085 57%, #004C66 99%);
+    background: radial-gradient(ellipse at center, #337085 57%, #004C66 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#337085', endColorstr='#004C66', GradientType=1);
+
+}
+
+div.post {
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    margin: 10px;
+    position: absolute;
+    display: inline-block;
+    cursor: -webkit-grab;
+    -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    border: 1px solid black;
+}
+
+div.post:active {
+    cursor: -webkit-grabbing;
+}
+
+div.post p {
+    font-size: 22px;
+    padding: 5px;
+    font-family: "Shadows Into Light", Arial;
+}
+
+div.post:hover > span {
+    opacity: 1;
+}
+
+div.post > span {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    opacity: 0;
+    transition: opacity .25s linear;
+}
+
+
+.glyphicon-plus {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
