@@ -1,0 +1,23 @@
+{
+  "name": "react-blog-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.jsx",
+  "scripts": {
+    "start": "open http://localhost:4321 & httpster -p 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristing81/react-blog-frontend.git"
+  },
+  "author": "Kristin Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristing81/react-blog-frontend/issues"
+  },
+  "homepage": "https://github.com/kristing81/react-blog-frontend#readme",
+  "dependencies": {
+    "httpster": "^1.0.1",
+    "react-tools": "^0.13.3"
+  }
+}
